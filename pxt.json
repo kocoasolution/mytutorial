@@ -12,7 +12,8 @@
         "README.md",
         "mtutorial001.md",
         "mtutorial002.md",
-        "mtutorial003.md"
+        "mtutorial003.md",
+        "mtutorial004.md"
     ],
     "testFiles": [
         "test.ts"

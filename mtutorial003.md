@@ -8,7 +8,7 @@ basic.forever(function () {
 ```
 
 ## 두 자리 이상의 수를 나타내 봅시다.
-* ![GIF_35](https://github.com/kocoasolution/mytutorial/assets/170903760/821d627f-f63f-4ebe-be5e-6a749ef3b6fb)
+![GIF_35 (2) (1)](https://github.com/kocoasolution/mytutorial/assets/170903760/ece27df8-a9b0-4212-8299-255a1e959abb)
 
 
 ## (1) 숫자 출력 블록 가져오기
@@ -22,4 +22,4 @@ basic.forever(function () {
 * 마이크로비트에 코드를 `|다운로드|` 하세요.
 
 ## (4) 결과확인하기
-* ![GIF_35](https://github.com/kocoasolution/mytutorial/assets/170903760/821d627f-f63f-4ebe-be5e-6a749ef3b6fb)
+![GIF_35 (2) (1)](https://github.com/kocoasolution/mytutorial/assets/170903760/ece27df8-a9b0-4212-8299-255a1e959abb)

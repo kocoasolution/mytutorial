@@ -7,7 +7,7 @@ basic.forever(function () {
 })
 ```
 
-## 한 글자 이상의 긴 문자열을 나타내 봅시다.
+## 두 글자 이상의 긴 문자열을 나타내 봅시다.
 ![Hello2](https://github.com/kocoasolution/mytutorial/assets/170903760/119c286f-3397-48b3-84ee-7e76227b72ae)
 
 

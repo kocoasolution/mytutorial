@@ -4,11 +4,11 @@
 basic.showNumber()
 ```
 
-## 아래와 같은 것을 만들어 봅시다.
+## LED에 숫자0을 나타내 봅시다.
 ![custom-microbit (14)](https://github.com/kocoasolution/mytutorial/assets/170903760/f1bad6d4-8c78-4820-be1e-be89934f707b)
 
 
-# (1) 숫자 블록 가져오기
+## (1) 숫자 블록 가져오기
 * ``||basic.숫자 출력 0||`` 블록을 가져오세요.
 
 ## (2) 시작하면에 넣기 

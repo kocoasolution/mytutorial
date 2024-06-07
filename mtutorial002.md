@@ -5,7 +5,7 @@ basic.showString()
 ```
 
 ## LED에 글자 하나를 나타내 봅시다.
-![문자A](https://github.com/kocoasolution/mytutorial/assets/170903760/71cf3fb5-9b69-4f07-ab2b-48db717dd693)
+![LetterA](https://github.com/kocoasolution/mytutorial/assets/170903760/7265f6f2-2925-4db4-82d8-ad2e0b17d0a5)
 
 
 ## (1) 문자열 출력 블록 가져오기
@@ -20,4 +20,4 @@ basic.showString()
 * 마이크로비트에 코드를 `|다운로드|` 하세요.
 
 ## (4) 결과확인하기
-![문자A](https://github.com/kocoasolution/mytutorial/assets/170903760/71cf3fb5-9b69-4f07-ab2b-48db717dd693)
+![LetterA](https://github.com/kocoasolution/mytutorial/assets/170903760/7265f6f2-2925-4db4-82d8-ad2e0b17d0a5)

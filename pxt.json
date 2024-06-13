@@ -15,7 +15,8 @@
         "mtutorial003.md",
         "mtutorial004.md",
         "mtutorial005.md",
-        "mtutorial006.md"
+        "mtutorial006.md",
+        "mtutorial007.md"
     ],
     "testFiles": [
         "test.ts"

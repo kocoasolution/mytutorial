@@ -32,8 +32,7 @@ basic.forever(function () {
 ![011_1](https://github.com/kocoasolution/mytutorial/assets/170903760/b053f307-af76-45a3-b693-51efb63c28c6)
 
 ## [문제2] 아래의 동작을 만들어 보세요.
-* ```||basic.LED 출력||```을 먼저 사용하고, 없는 그림은 ```||basic.LED 출력||```으로 직접 그리세요.
-* ![011_2](https://github.com/kocoasolution/mytutorial/assets/170903760/da3df46c-89d7-469c-aa64-cebb32ad71f9)
+![011_2](https://github.com/kocoasolution/mytutorial/assets/170903760/da3df46c-89d7-469c-aa64-cebb32ad71f9)
 
 ## [문제3] 아래와 같은 엘레베이터 화살표 동작을 만들어 보세요.
 ![011_3](https://github.com/kocoasolution/mytutorial/assets/170903760/e013f3e8-c426-4ae7-9948-785467e71221)

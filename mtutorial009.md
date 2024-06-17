@@ -26,10 +26,10 @@ basic.forever(function () {
 ```
 
 ## 자전거 방향지시등을 마이크로비트로 만들어 봅시다.
-![자전거후미등1](https://github.com/kocoasolution/mytutorial/assets/170903760/e2f1f79b-6570-4c92-bc4d-319a9401c008)
+![그림11_1](https://github.com/kocoasolution/mytutorial/assets/170903760/cb7dafff-57fb-4315-bc58-bad9b4e4d45f)
 
 ## 만들어 볼 그림 모습
-![그림1](https://github.com/kocoasolution/mytutorial/assets/170903760/5fe33013-357f-4643-b08e-ec92dc723ce1)
+![그림22_1](https://github.com/kocoasolution/mytutorial/assets/170903760/46cddfe1-fcee-4fad-9a13-a0bb9da351ed)
 
 ## (1) 왼쪽 화살표 실행해보기
 * 아래의 **왼쪽 화살표 코드**를 마이크로비트에 ``|다운로드|`` 해보세요. 
@@ -41,7 +41,7 @@ basic.forever(function () {
 * **정지**를 그려서 마이크로비트에 ``|다운로드|`` 해보세요.
 
 ## (4) 화살표를 1초 간격으로 아래와 같이 만들어 보세요.
-![9](https://github.com/kocoasolution/mytutorial/assets/170903760/ed77bc8e-f8fe-4d75-b30c-350337a45102)
+![10](https://github.com/kocoasolution/mytutorial/assets/170903760/388c6eca-ee30-4b7b-9686-8e03926d00cb)
 
 ## 끝
 * 모두 완료했습니다.

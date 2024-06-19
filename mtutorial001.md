@@ -13,6 +13,7 @@ basic.showNumber()
 
 ## (2) 시작하면에 넣기 
 * ``||basic.숫자 출력 0||`` 블록을 ``||basic.시작하면||`` **블록안에** 끼우세요.
+
 ```blocks
 basic.showNumber(0)
 ```

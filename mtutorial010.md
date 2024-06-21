@@ -40,6 +40,5 @@ basic.forever(function () {
 ## (2) 이번에는 아래 그림과 같은 엘레베이터 화살표를 만들어 보세요.(화살표 방향은 왼쪽으로)
 ![new2](https://github.com/kocoasolution/mytutorial/assets/170903760/61987d36-a360-45ed-94ce-3913657772a6)
 
-* 
 ## 끝
 * 모두 완료했습니다.

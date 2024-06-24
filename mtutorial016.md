@@ -32,7 +32,7 @@ basic.forever(function () {
 * 다음 화면으로 넘어가면서 문제를 해결해 봅시다.
 
 ## [문제1] A,B버튼에 따라 표정이 달라지는 아래의 동작을 만들어 보세요.
-![ch3_ex1](https://github.com/kocoasolution/mytutorial/assets/170903760/d3d173a1-9908-4ff5-8ff3-47d879540f03)
+![ch3_ex2](https://github.com/kocoasolution/mytutorial/assets/170903760/a9d39a4a-0d3b-445f-85af-2eee09289c23)
 
 ~hint(힌트)
 * A 버튼 누를 때, B 버튼 누를 때를 사용합니다.

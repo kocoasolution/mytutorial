@@ -14,7 +14,7 @@ basic.forever(function () {
 ```
 
 ## 디지털 주사위를 만들어 봅시다.
-* (그림1)
+![그림1_1](https://github.com/kocoasolution/mytutorial/assets/170903760/1018a724-c78c-4d9a-b0d5-e9b1dcf539b7)
 
 ## (1-1) 마이크로비트 흔들림 감지 블록 가져오기
 * 마이크로비트는 **흔들림**을 감지 할 수 있습니다.

@@ -8,10 +8,10 @@ basic.showNumber()
 ![custom-microbit (14)](https://github.com/kocoasolution/mytutorial/assets/170903760/f1bad6d4-8c78-4820-be1e-be89934f707b)
 
 
-## (1) 숫자 블록 가져오기
+## (1) 숫자출력 블록 가져오기
 * ``||basic.숫자 출력 0||`` 블록을 가져오세요.
 
-## (2) 시작하면에 넣기 
+## (2) "시작하면"에 넣기 
 * ``||basic.숫자 출력 0||`` 블록을 ``||basic.시작하면||`` **블록안에** 끼우세요.
 
 ```blocks

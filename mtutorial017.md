@@ -62,7 +62,7 @@ input.onGesture(Gesture.Shake, function () {
 
 * ``||music.다다둠 멜로디||``를 ``||music.바 딩 멜로디||``로 바꿔주세요.
 
-* 코드를 ``|다운로드|``하고 마이크로비트를 **흔들었**을 때 **소리가 같이 나오는지** 확인해 보세요.
+* 코드를 ``|다운로드|``하고 마이크로비트를 **흔들었을 때** **소리가 같이 나오는지** 확인해 보세요.
 
 ```blocks
 input.onGesture(Gesture.Shake, function () {

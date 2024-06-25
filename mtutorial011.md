@@ -1,4 +1,4 @@
-# 코코아팹 마이크로비트 코딩활동 011
+# [코코아팹] 마이크로비트 STEAM 키트 코딩활동 011
 
 ```ghost
 basic.forever(function () {

@@ -93,7 +93,7 @@ basic.forever(function () {
 ```
 
 ## (2-2) (+)클릭해서 비교 횟수 추가하기
-![bitpot03](https://github.com/kocoasolution/mytutorial/assets/170903760/e31bbbb1-3ad7-4c6e-8b1e-f75b8854d5cf)
+![bitpot03](https://github.com/kocoasolution/mytutorial/assets/170903760/af331e5f-b9cc-4ca3-9856-42316384f822)
 
 ```blocks
 let 토양수분센서 = 0

@@ -26,7 +26,8 @@
         "mtutorial014.md",
         "mtutorial015.md",
         "mtutorial016.md",
-        "mtutorial017.md"
+        "mtutorial017.md",
+        "bitpot01.md"
     ],
     "testFiles": [
         "test.ts"

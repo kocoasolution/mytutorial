@@ -1,4 +1,4 @@
-# 코코아팹 마이크로비트 코딩활동 017
+# [코코아팹] 마이크로비트 STEAM 키트 코딩활동 017
 
 ```ghost
 input.onGesture(Gesture.Shake, function () {

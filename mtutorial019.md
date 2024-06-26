@@ -21,7 +21,7 @@ basic.forever(function () {
 
 ## (1) 12면체 디지털 주사위 만들기
 * 흔들면 **1~12**까지 숫자가 표시되는 **12면체 주사위**를 마이크로비트로 만들어 보세요.
-![12면체_2](https://github.com/kocoasolution/mytutorial/assets/170903760/a528343a-1e87-47b6-b8fe-6c4bdf2c5ccc)
+* ![12면체_2](https://github.com/kocoasolution/mytutorial/assets/170903760/a528343a-1e87-47b6-b8fe-6c4bdf2c5ccc)
 
 
 ## (2) 흔들면 랜덤하게 소리 나오기

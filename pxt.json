@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
     },
     "files": [
         "main.blocks",
@@ -31,6 +32,7 @@
         "mtutorial019.md",
         "mtutorial020.md",
         "mtutorial021.md",
+        "mtutorial022.md",
         "bitpot01.md"
     ],
     "testFiles": [

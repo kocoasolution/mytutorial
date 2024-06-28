@@ -4,8 +4,7 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+        "microphone": "*"
     },
     "files": [
         "main.blocks",

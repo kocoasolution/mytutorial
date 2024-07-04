@@ -46,6 +46,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## (3) "도" 소리 설정 바꾸기  
 * ``||music.재생 (도)음을 1박자 동안 재생[완료될 때까지]||``에서 ``||music.1박자||``를 ``||music.1/2박자||``로 바꾸세요. 
+
 * ``||music.완료될 때까지||``를 ``||music.배경에서 실행||``으로 바꾸세요.
 
 ```blocks

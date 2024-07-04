@@ -1,55 +1,117 @@
-### @activities true
-
-
-# [코코아팹] 마이크로비트 STEAM 키트 코딩활동 021
+# [코코아팹] 마이크로비트 STEAM 키트 코딩활동 022
 
 ```ghost
 input.onButtonPressed(Button.A, function () {
-    strip.showColor(neopixel.colors(NeoPixelColors.Red))
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+        basic.showIcon(IconNames.Heart)
+        music.play(music.tonePlayable(349, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+        basic.showIcon(IconNames.SmallHeart)
+    }
+    basic.clearScreen()
 })
-let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P1, 4, NeoPixelMode.RGB)
-basic.forever(function () {
-	
-})
-
 ```
 
 ```template
-input.onButtonPressed(Button.A, function () {
-})
-
+music.setVolume(90)
 
 ```
 
-## 오늘의 주제
-### 오늘의 주제 @unplugged
-이번시간에는 ooo에 대해서 알아보겠습니다.
-![WS2812_LED](https://github.com/kocoasolution/mytutorial/assets/170903760/963b349f-9128-4ce1-9b62-f05f151cdfc2)
+## 소리내며 하트를 움직이는 동작을 4번 반복해 봅시다.
+![steam22_1](https://github.com/kocoasolution/mytutorial/assets/170903760/666c8411-df17-43a9-8601-9e0794750a4e)
 
-### 마이크로비트를 컴퓨터에 연결하기 @unplugged
-* USB 케이블을 이용해 마이크로비트를 컴퓨터에 연결하세요
-* 연결을 완료했으면 ``||logic.확인||``을 누르세요.
+## (1) A 버튼 입력으로 시작
+*  ``||input.A버튼 누를 때||``를 가져오세요.
 
-## 마이크로비트로 가위-바위-보를 만들어 봅시다.
-* 아래와 같이 일부 코드가 만들어진 상태에서 시작합니다.
-* 아래 ``||input.흔들림 감지될 때||``에서 코딩을 시작하면 됩니다.
-
-## (1) 랜덤 숫자 1~3으로 범위 정하기 
-*  **가위,바위,보 3가지 경우**가 있으므로, ``||math.1부터 3사이 랜덤||``으로 바꿔주세요.
-
-* **``||variable.숫자||``= 1은 가위, ``||variable.숫자||``= 2는 바위, ``||variable.숫자||``= 3은 보** 입니다.
+* ``||loops.4번 반복 실행||`` 블록을 ``||input.A버튼 누를 때||``안에 넣으세요.
 
 ```blocks
-let 숫자 = 0
-input.onGesture(Gesture.Shake, function () {
-    숫자 = randint(1, 3)
-    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.BaDing), music.PlaybackMode.InBackground)
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+      
+    }
 })
 ```
 
-## (9) 마지막 실행해보기
+## (2) "도" 소리 넣기  
+* ``||music.재생 (도)음을 1박자 동안 재생[완료될 때까지]||``를 가져와 ``||loops.4번 반복 실행||`` 블록안에 넣습니다.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    }
+})
+```
+
+## (3) "도" 소리 설정 바꾸기  
+* ``||music.재생 (도)음을 1박자 동안 재생[완료될 때까지]||``에서 ``||music.1박자||``를 ``||music.1/2박자||``로 바꾸세요. 
+* ``||music.완료될 때까지||``를 ``||music.배경에서 실행||``으로 바꾸세요.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+    }
+})
+```
+
+## (4) 큰 하트 넣기
+* 이어서 ``||basic.아이콘 출력||``를 넣고 **큰 하트 모양**으로 선택하세요.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Heart)
+    }
+})
+```
+
+## (5) "파" 소리 넣기  
+* 이어서 ``||music.재생 (파)음을 1박자 동안 재생[완료될 때까지]||``를 가져와 넣습니다.
+
+* ``||music.1박자||``를 ``||music.1/2박자||``로, ``||music.완료될 때까지||``를 ``||music.배경에서 실행||``으로 바꾸세요.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Heart)
+        music.play(music.tonePlayable(349, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+    }
+})
+```
+
+## (6) 작은 하트 넣기
+* 이어서 ``||basic.아이콘 출력||``를 넣고 **작은 하트 모양**으로 선택하세요.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Heart)
+        music.play(music.tonePlayable(349, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+        basic.showIcon(IconNames.SmallHeart)
+    }
+})
+```
+
+## (7) 실행해보기
 * 지금까지 만든 코드를 ``|다운로드|`` 합니다.
+  
+* ``||input.A버튼||``을 손으로 눌렀을 때, LED 하트와 소리가 4번 반복해서 나오는지 관찰해 보세요.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Heart)
+        music.play(music.tonePlayable(349, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+        basic.showIcon(IconNames.SmallHeart)
+    }
+})
+```
 
 ## 끝
 * 마지막 페이지 입니다.

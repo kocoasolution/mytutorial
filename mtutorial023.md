@@ -22,7 +22,7 @@ music.setVolume(90)
 ```
 
 ## 10초 타이머를 만들어 봅시다.
-(이미지 steam22_2)
+![steam22_2](https://github.com/kocoasolution/mytutorial/assets/170903760/fbffd249-132f-4f9c-96b5-d9cd39075e92)
 
 ## (1) B 버튼 입력으로 시작
 *  ``||input.A 버튼 누를 때||``를 가져오고, ``||input.B 버튼 누를 때||``으로 바꾸세요.

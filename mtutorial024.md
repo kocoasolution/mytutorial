@@ -28,9 +28,9 @@ input.onGesture(Gesture.Shake, function () {
 ![steam24_1](https://github.com/kocoasolution/mytutorial/assets/170903760/5aacd744-bf81-4360-b128-613acfc7a4b8)
 
 ## (1) "로고 위쪽" 함수 만들기
-* ``||function.함수||``를 누르고 ``|함수 만들기|``를 누르세요.
+* **``|고급|``**을 누르면 나오는 ``||function.함수||``를 누르세요. 
 
-* **"로고 위쪽"**이라고 함수 이름을 입력학고 ``|완료|``을 누르세요.
+* ``|함수 만들기|``를 누르고 **"로고 위쪽"**이라고 함수 이름을 입력학고 ``|완료|``을 누르세요.
 
 ```blocks
 function 로고_위쪽 () {

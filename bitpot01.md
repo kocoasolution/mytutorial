@@ -19,7 +19,7 @@ basic.forever(function () {
 ![4](https://github.com/kocoasolution/mytutorial/assets/170903760/76cd0868-1db3-4ca4-9773-853f9ae99076)
 
 ## 전체 알고리즘 미리보기
-* 1.토양의 수분상태를 ``||토양수분센서||`` 변수에 저장합니다.
+* 1.토양의 수분상태를 ``||variables.토양수분센서||`` 변수에 저장합니다.
 
 * 2.``||variables.토양수분센서||``값의 크기에 따라 ``||basic.아이콘 출력||``으로 표정을 나타냅니다.
 
